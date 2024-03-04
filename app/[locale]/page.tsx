@@ -14,6 +14,10 @@ export default function HomePage() {
         <ChatbotUISVG theme={theme === "dark" ? "dark" : "light"} scale={0.3} />
       </div>
 
+      {/* Responsible AI Acknowledgement */}
+      <div className="mt-2 text-center text-xl">
+        By logging in you are agreeing to use AI responsibly, as defined at 2bit.ink/learn-ai
+      </div>
       <div className="mt-2 text-4xl font-bold">Chatbot UI</div>
 
       <Link
