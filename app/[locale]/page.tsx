@@ -10,16 +10,15 @@ export default function HomePage() {
 
   return (
     <div className="flex size-full flex-col items-center justify-center">
-      <div>
-        <ChatbotUISVG theme={theme === "dark" ? "dark" : "light"} scale={0.3} />
-      </div>
+
+      <div className="mt-2 text-4xl font-bold">Enterprise Chatbot</div>
+      <div className="mt-2 text-4xl font-bold">Responsible AI Acknowledgement</div>
 
       {/* Responsible AI Acknowledgement */}
       <div className="mt-2 text-center text-xl">
-        By logging in you are agreeing to use AI responsibly, as defined at 2bit.ink/learn-ai
+        By logging in I am agreeing to use AI responsibly: I will not submit PII/client data. I remain personally accountable.
       </div>
-      <div className="mt-2 text-4xl font-bold">Chatbot UI</div>
-
+      
       <Link
         className="mt-4 flex w-[200px] items-center justify-center rounded-md bg-blue-500 p-2 font-semibold"
         href="/login"
